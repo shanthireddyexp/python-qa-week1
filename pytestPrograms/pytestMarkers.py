@@ -13,3 +13,7 @@ def test_regression():
 def test_smoke():
     print("This is a smoke test")
     
+@pytest.mark.skip (reason="Test is skipped for demonstration")
+def test_skipped():
+    print("This test will be skipped")
+    
